@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1120px) {
+  .navbar {
+    height: 455px;
+    flex-direction: column;
+    transition: all 0.1s ease-out;
+  }
+  .nav-list {
+    flex-direction: column;
+    font-size: 25px;
+  }
+  .rightNav {
+    text-align: center;
+  }
+  #search {
+    width: 100%;
+    font-size: 12px;
+    padding: 2px;
+    display: block;
+    margin: auto;
+  }
+  .burger {
+    display: block;
+  }
+  .h-nav-ph {
+    height: 72px;
+  }
+  .v-class-ph {
+    opacity: 0;
+  }
+  .section {
+    height: 1170px;
+    flex-direction: column;
+  }
+  .firstSection {
+    height: 124vh;
+  }
+  .thumbnail img {
+    width: 8rem;
+  }
+  .paras {
+    padding: 0px 5px;
+  }
+  .btn {
+    margin: 7px 4px;
+    font-size: 13px;
+  }
+  .secondHalf img {
+    display: none;
+  }
+}
